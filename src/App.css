@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  padding: 4vw;
+}
+.App-Bg {
+  background: url('img/map.png') no-repeat center center fixed;
+  position: fixed;
+  width: 100vw;
+  height: auto;
+  min-height: 100%;
+  min-width: 1024px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 23px;
+  background: url('img/logo.png') no-repeat left center ;
+  color: #FFFFFF;
+  padding: 3%;
+  padding-left: 10%;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.page {
+  margin: auto;
+  max-width: 720px;
+  min-height: 75vh;
+  height: auto;
+  position: relative;
+
+  background: #014E6C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-inline: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App-Bg {
+    left: 50%;
+    margin-left: -512px;
+    font-size: smaller;
   }
-  to {
-    transform: rotate(360deg);
+  header {
+    background: url('img/logo.png') no-repeat left center ;
+    padding: 5%;
+    padding-left: 15%;
   }
 }

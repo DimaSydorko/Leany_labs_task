@@ -1,0 +1,54 @@
+.Coments {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 3vh;
+  color: #ADBFC7;
+}
+
+.description-box {
+  padding: 5%;
+}
+
+li {
+  font-family: Roboto Mono;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding-inline: 16px;
+  
+  color: #FFFFFF;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+li div {
+  padding: 5px;
+  padding-inline: 8px;
+  z-index: 2;
+}
+
+.string {
+  color: #FFE177;
+} 
+div img {
+  position: absolute;
+  left: 3vw;
+  height: 3vh;
+  max-height: 30px;
+  /* margin: 0px 10px 10px 0px; */
+}
+.number {
+  color: #1CDDB4;
+}
+.boolean {
+  color: #B1C7FF;
+}
+.outher {
+  color: rgb(255, 255, 255);
+}

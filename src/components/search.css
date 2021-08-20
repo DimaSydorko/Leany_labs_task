@@ -1,0 +1,48 @@
+button {
+  width: 25%;
+  height: 10vw;
+  max-height: 44px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  background: #D22C32;
+  border-radius: 0px 5px 5px 0px;
+  border:none;
+}
+button:hover{
+  background: rgb(238, 113, 117);
+}
+
+input[type=search] {
+  width: 75%;
+  height: 10vw;
+  max-height: 44px;
+  background: #F2F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 0px 0px 5px;
+  border:none;
+
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}::placeholder {
+  color: rgba(97, 97, 97, 0.28);
+}
+
+Form {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.Formik {
+  padding: 5%;
+}
+.error {
+  position: absolute;
+  color: #fa030c;
+}
