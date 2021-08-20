@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Leany_labs_task/static/css/main.6d0f90c0.chunk.css",
+    "main.js": "/Leany_labs_task/static/js/main.2e41df54.chunk.js",
+    "main.js.map": "/Leany_labs_task/static/js/main.2e41df54.chunk.js.map",
+    "runtime-main.js": "/Leany_labs_task/static/js/runtime-main.450b38a2.js",
+    "runtime-main.js.map": "/Leany_labs_task/static/js/runtime-main.450b38a2.js.map",
+    "static/js/2.fc2e29a5.chunk.js": "/Leany_labs_task/static/js/2.fc2e29a5.chunk.js",
+    "static/js/2.fc2e29a5.chunk.js.map": "/Leany_labs_task/static/js/2.fc2e29a5.chunk.js.map",
+    "static/js/3.b86d27df.chunk.js": "/Leany_labs_task/static/js/3.b86d27df.chunk.js",
+    "static/js/3.b86d27df.chunk.js.map": "/Leany_labs_task/static/js/3.b86d27df.chunk.js.map",
+    "index.html": "/Leany_labs_task/index.html",
+    "static/css/main.6d0f90c0.chunk.css.map": "/Leany_labs_task/static/css/main.6d0f90c0.chunk.css.map",
+    "static/js/2.fc2e29a5.chunk.js.LICENSE.txt": "/Leany_labs_task/static/js/2.fc2e29a5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Leany_labs_task/static/media/map.31d666c8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.450b38a2.js",
+    "static/js/2.fc2e29a5.chunk.js",
+    "static/css/main.6d0f90c0.chunk.css",
+    "static/js/main.2e41df54.chunk.js"
+  ]
+}
