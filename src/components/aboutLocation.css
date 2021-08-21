@@ -4,7 +4,8 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;
-
+  text-align: center;
+  
   line-height: 21px;
   padding-top: 3vh;
   padding: 5%;
@@ -36,9 +37,7 @@ li div {
 div img {
   position: absolute;
   left: 3vw;
-  height: 3vh;
-  max-height: 30px;
-  min-height: 20px;
+  height: 25px;
 }
 .number {
   color: #1CDDB4;
