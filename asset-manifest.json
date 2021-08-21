@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Leany_labs_task/static/css/main.880ec835.chunk.css",
+    "main.css": "/Leany_labs_task/static/css/main.f6352c7c.chunk.css",
     "main.js": "/Leany_labs_task/static/js/main.3721f9eb.chunk.js",
     "main.js.map": "/Leany_labs_task/static/js/main.3721f9eb.chunk.js.map",
     "runtime-main.js": "/Leany_labs_task/static/js/runtime-main.450b38a2.js",
@@ -10,14 +10,14 @@
     "static/js/3.b86d27df.chunk.js": "/Leany_labs_task/static/js/3.b86d27df.chunk.js",
     "static/js/3.b86d27df.chunk.js.map": "/Leany_labs_task/static/js/3.b86d27df.chunk.js.map",
     "index.html": "/Leany_labs_task/index.html",
-    "static/css/main.880ec835.chunk.css.map": "/Leany_labs_task/static/css/main.880ec835.chunk.css.map",
+    "static/css/main.f6352c7c.chunk.css.map": "/Leany_labs_task/static/css/main.f6352c7c.chunk.css.map",
     "static/js/2.fc2e29a5.chunk.js.LICENSE.txt": "/Leany_labs_task/static/js/2.fc2e29a5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Leany_labs_task/static/media/map.31d666c8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.450b38a2.js",
     "static/js/2.fc2e29a5.chunk.js",
-    "static/css/main.880ec835.chunk.css",
+    "static/css/main.f6352c7c.chunk.css",
     "static/js/main.3721f9eb.chunk.js"
   ]
 }
