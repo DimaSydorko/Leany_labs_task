@@ -7,7 +7,7 @@ import numberImg from '../img/number.png'
 import booleanImg from '../img/boolean.png'
 
 const AboutLocation = React.memo(({geolocation}) => {
-  function renderSwitch(data) {
+  function DataSort(data) {
     switch (typeof data) {
       case 'string': 
         return <div className='string'><img src={stringImg} alt={'string'}/>{data}</div>
@@ -20,25 +20,22 @@ const AboutLocation = React.memo(({geolocation}) => {
     }
   }
 
+  function Output() {
+    if (geolocation.isFetching) return "Loading..."
+    else if (geolocation.error) return geolocation.error
+    else if (geolocation.locationData) return Object.keys(geolocation.locationData)
+      .map((key, i)=>(
+        <li key={i}>
+          {key}: {DataSort(geolocation.locationData[key])}
+        </li>
+      ))
+    else return 'Enter IP and press "Search" to get geplocation data'
+  }
+
   return <>
-    {geolocation.isFetching 
-      ? <div className='Coments'>Loading...</div>
-        : geolocation.error 
-        ? <div className='Coments'>{geolocation.error}</div> 
-          : <div className='description-box'>
-            {geolocation.locationData ? 
-              Object.keys(geolocation.locationData).map((key, i)=>(
-                <li key={i}>
-                  {key}
-                  : {renderSwitch(geolocation.locationData[key])}
-                </li>
-              ))
-            : <div className='Coments'>
-              Enter IP and press "Search" to get geplocation data
-            </div>
-            }
-          </div>
-    }
+    <div className='Output'>
+      {Output()}
+    </div>
   </>
 })
 

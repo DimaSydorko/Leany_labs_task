@@ -1,15 +1,12 @@
-.Coments {
+.Output {
   font-family: Roboto;
+  color: #ADBFC7;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;
-  line-height: 21px;
-  text-align: center;
-  padding-top: 3vh;
-  color: #ADBFC7;
-}
 
-.description-box {
+  line-height: 21px;
+  padding-top: 3vh;
   padding: 5%;
 }
 
@@ -41,7 +38,7 @@ div img {
   left: 3vw;
   height: 3vh;
   max-height: 30px;
-  /* margin: 0px 10px 10px 0px; */
+  min-height: 20px;
 }
 .number {
   color: #1CDDB4;
